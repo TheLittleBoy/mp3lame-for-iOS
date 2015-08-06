@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.author           = { "Sunny" => "sipdar@163.com" }
   s.source           = { :git => "https://github.com/sipdar/mp3lame-for-ios.git", :tag => s.version.to_s ,:submodules => true}
   s.ios.deployment_target = '6.0'
+  s.osx.deployment_target = '10.7'
   s.ios.vendored_frameworks = 'lame.framework'
-
+  s.osx.vendored_frameworks = 'lame.framework'
 end

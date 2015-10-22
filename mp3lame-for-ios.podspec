@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.7'
   s.ios.vendored_frameworks = 'lame.framework'
+  s.tvos.vendored_frameworks = 'lame.framework'
   s.osx.vendored_frameworks = 'lame.framework'
 end

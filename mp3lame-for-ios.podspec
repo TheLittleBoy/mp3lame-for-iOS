@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "mp3lame-for-ios"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "mp3lame-for-ios is a mp3 encoder lib "
   s.homepage         = "https://github.com/sipdar/mp3lame-for-ios"
   s.license          = 'LPGL'
